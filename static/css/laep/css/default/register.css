@@ -1,0 +1,80 @@
+/*
+**	注册页面
+*/
+.aw-register-bg{position:relative;padding-top: 78px;}
+.aw-register-bgd{background-color: #f4f4f4}
+.aw-register-head{position:relative;width: 388px;margin:0 auto;}
+.aw-register-head h1{line-height: 20px;margin:0;padding: 0 0 15px;text-align: justify;color: #CFF1FF;font-size: 100%;font-weight: 500;}
+.aw-register-head h1 img{margin-right: 15px;vertical-align: text-bottom;}
+.aw-register-head-title{width:386px;height: 76px;line-height: 76px;margin:0;text-align: center;color:#fff;font-size: 20px;font-weight: bold;}
+.aw-register-head-title .i-new-user{position: relative;right: 5px;top:3px;*top:-3px;}
+
+.aw-register-box{background-color: #f4f4f4; width: 386px;height: auto;margin:0 auto;border:1px solid #C9C9C9;border-radius:8px;text-align: center; -webkit-box-shadow: 0 4px 8px rgba(0,1,1,0.03);
+-moz-box-shadow: 0 4px 8px rgba(0,1,1,0.03);
+box-shadow: 0 4px 8px rgba(0,1,1,0.03);
+background-image: -ms-linear-gradient(top, #f9f9f9 0%, #f5f5f5 100%);
+background-image: -moz-linear-gradient(top, #f9f9f9 0%, #f5f5f5 100%);
+background-image: -o-linear-gradient(top, #f9f9f9 0%, #f5f5f5 100%);
+background-image: -webkit-gradient(linear, top, bottom, color-stop(0, #f9f9f9), color-stop(1, #f5f5f5));
+background-image: -webkit-linear-gradient(top, #f9f9f9 0%, #f5f5f5 100%);
+background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);}
+.aw-register-box h1{font-size: 28px; text-align: center; font-weight: normal; padding-top: 30px; padding-bottom: 10px;}
+.aw-register-box ul{width: 284px;margin:0 auto;padding: 30px; margin-top: 18px; margin-bottom: 80px; }
+.aw-register-box ul li{position:relative;width:auto;margin-bottom: 10px;}
+.aw-register-box ul li input{width:284px;height:40px;line-height: 28px; box-shadow: none;  text-indent: 6px;}
+.aw-register-box ul li.last{text-align: left;color:#666;}
+.aw-register-box ul li.last a{font-size: 14px; color: #9ac948;}
+.aw-register-box ul li.last input{width: 13px;}
+.aw-register-box ul li.last label{display: inline-block;}
+.aw-register-box ul li .btn{ font-size: 20px; color: #fff; padding:12px 0px; width: 284px;}
+.aw-register-box ul .aw-register-verify{text-align: left;}
+.aw-register-box ul .aw-register-verify input{width: 100px;}
+.aw-register-box ul .aw-register-verify .auth-img img{width: 88px;height: 38px;}
+.aw-regiter-agreement{position:relative;width:306px;margin:10px 0 0 -10px;padding: 20px 5px 20px 20px;background:#DEDEDE;border-radius: 10px;}
+.aw-regiter-agreement .i-register-triangle{position: absolute;top:-6px;left: 280px;}
+.aw-register-agreement-txt{max-height: 100px;overflow-x:hidden;overflow-y:auto;}
+.line1{height: 1px;margin-bottom: -25px;width: 298px; background: linear-gradient(to right, #ededed 0%, #e6e6e6 50%, #ededed 100%); margin-left:50px;}
+
+/*
+**	注册页面 IE8
+*/
+.aw-login-box {width: 390px;margin: 0px auto;margin-top: -35px; text-align:center\9;}
+.aw-register-box h1{font-size: 28px\9; text-align: center\9; font-weight: normal\9; padding-top: 30px\9; padding-bottom: 10px\9;}
+.aw-register-bgd{background-color: #f4f4f4\9; text-align:center\9;}
+.aw-register-box{background-color: #f5f5f5\9; width: 386px\9;height: auto\9;margin:0 auto\9;border:1px solid #C9C9C9\9;border-radius:8px\9;text-align: center\9; border-radius: 8px\9;}
+.aw-register-box ul .aw-register-verify{padding-left:6px\9;}
+.aw-register-box ul li .btn{ font-size: 20px\9; color: #fff\9; height:40px\9; width:284px\9; }
+
+/*注册提示*/
+.aw-register-box li span{position:absolute;top:1px;right:-170px;width:150px;height:36px; padding:0px 5px;font-size:12px;border-radius: 5px;overflow: hidden;text-align: left;}
+.aw-reg-tips{line-height:15px;background: #EEF7FD;border: 1px solid #CFDDE6;color:#999;}
+.aw-reg-err{line-height: 28px;background: #FFEAEA;border:1px solid #E5C3C4;color:#CC0000;}
+.aw-reg-err .i-err{position:relative;top:2px;*top:-2px;margin-right: 5px;}
+.aw-reg-right{background: none;border: none;}
+.aw-reg-right .i-followed{position: relative;top:5px;}
+
+/*开放接口注册页面*/
+.aw-register-open-box{padding-top:30px;}
+.aw-register-open-box p{width: 240px;text-align: left;margin: 0 auto 10px;}
+.aw-register-open-box ul{padding-top:0px;}
+.aw-register-open-tabs i{margin-left:5px;}
+.aw-register-open-tabs.active .i-triangle-down{background-position: -210px -110px;}
+
+/*找回密码*/
+.aw-find-pwd{padding:40px 0 0;}
+.aw-find-pwd .aw-mod-body{margin:0 0 100px;}
+.aw-find-pwd .aw-mod-body h3{margin:0 0 30px;font-size: 20px;color:#1A9F00;}
+.aw-find-pwd p{margin:0;color:#666; margin-top: -20px;}
+.aw-find-pwd .aw-mod-footer{padding:25px 30px 30px;background: #EBEBEB;border-radius:0 0 10px 10px;text-align: left;}
+
+.aw-register-box ul li.error p {
+    background: none repeat scroll 0 0 #FFF480;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px 5px 5px 5px;
+    color: #666666;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 12px;
+    text-align: left;
+}
+.aw-register-box ul li.error p .i-no{margin-right: 10px;position: relative;top:4px;*top:0;}
